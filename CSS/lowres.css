@@ -1,0 +1,78 @@
+/*HD+*/
+@media(max-width: 1600px){
+    .Gun_Shop{
+        font-size: 40px;
+    }
+    .Stick{
+        height: 100px;
+    }
+    .gun-wrapper .gun-box{
+        width: 400px;
+        height: 170px;
+    }
+    .text_block h5 , .article h6{
+        font-size: 28px;
+    }
+    .text_block p ,.article p{
+        font-size: 19px;
+    }
+    .img-box{
+        -webkit-transform: scale(1.8);
+            -ms-transform: scale(1.8);
+                transform: scale(1.8);
+    }
+    .article{
+        height: 170px;
+        width: 300px;
+    }
+}
+@media(max-width: 1366px){
+    .article{
+        width: 220px;
+        height: 130px;
+    }
+    .text_block h5 , .article h6{
+        font-size: 20px;
+    }
+    .text_block p ,.article p{
+        font-size: 14px;
+    }
+    .article .div {
+        height: 42px;
+        -webkit-transform: scale(4);
+            -ms-transform: scale(4);
+                transform: scale(4);
+    }
+    .gun-wrapper::-webkit-scrollbar{
+        height: 5px;
+    }
+}
+/*low*/
+@media(max-width: 1024px){
+    .gun-wrapper .gun-box{
+        width: 350px;
+        height: 140px;
+    }
+    .Gun_Shop{
+        font-size: 29px;
+    }
+    .article{
+        width: 170px;
+        height: 110px;
+    }
+    .article .div {
+        height: 24px;
+        -webkit-transform: scale(5);
+            -ms-transform: scale(5);
+                transform: scale(5);
+    }
+    .text_block h5, .article h6{
+        font-size: 17px;
+    }
+    .text_block p, .article p{
+        font-size: 12px;
+    }
+    .padding-left-box{
+        padding-left: 20px;
+    }
+}

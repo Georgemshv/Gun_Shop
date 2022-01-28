@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+    background: -o-radial-gradient(50% 50%, 
+    50% 50%, 
+    rgba(32, 39, 45, 0.9) 0%, rgba(8, 10, 12, 0.9) 100%) fixed;
+    background: radial-gradient(50% 50% at 50% 50%, 
+    rgba(32, 39, 45, 0.9) 0%, rgba(8, 10, 12, 0.9) 100%) fixed;
+}
+body{
+    background: -o-radial-gradient(50% 50%, 
+    50% 50%, 
+    rgba(32, 39, 45, 0.9) 0%, rgba(8, 10, 12, 0.9) 100%) fixed;
+    background: radial-gradient(50% 50% at 50% 50%, 
+    rgba(32, 39, 45, 0.9) 0%, rgba(8, 10, 12, 0.9) 100%) fixed;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #FFF500;
+-webkit-box-shadow: 0px 0px 3px rgba(255, 245, 0, 0.36);
+        box-shadow: 0px 0px 3px rgba(255, 245, 0, 0.36);
+}
+body::-webkit-scrollbar-track{
+    background: #c4c4c444;
+opacity: 0.05;
+border-radius: 7px;
+}
+.white{
+    color: white;
+}
+.gun-header{
+    padding-top: 52px;
+}
+.Gun_Shop{
+    text-align: center;
+    font-style: normal;
+    font-size: 54px;
+}
+.Stick{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 136px;
+    width: 0.5px;
+}
+.gun-wrapper{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+}
+.gun-wrapper .gun-box{
+    width: 524px;
+    height: 200px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 245, 0, 0.5)), to(rgba(255, 245, 0, 0)));
+    background: -o-linear-gradient(left, rgba(255, 245, 0, 0.5) 0%, rgba(255, 245, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 245, 0, 0.5) 0%, rgba(255, 245, 0, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    border-radius: 15px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.gun-wrapper .gun-box:hover{
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+}
+.padding-left-box{
+    padding: 48px 0px 0px 67px;
+}
+.gun-wrapper .gun-box:not(:first-child){
+    margin-left: 30px;
+}
+.text_block h5{
+    color: #FFF500;
+    text-shadow: 0px 0px 36px rgba(255, 245, 0, 0.3);
+    font-size: 36px;
+}
+.text_block p{
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.img-box {
+    width: 152px;
+    -webkit-transform: scale(2.4);
+        -ms-transform: scale(2.4);
+            transform: scale(2.4);
+}
+.img-box img{
+    width: 100%;
+}
+.gun-wrapper .gun_gun:not(:first-child) .gun-box{
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 245, 0, 0.15)), to(rgba(255, 245, 0, 0)));
+    background: -o-linear-gradient(left, rgba(255, 245, 0, 0.15) 0%, rgba(255, 245, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 245, 0, 0.15) 0%, rgba(255, 245, 0, 0) 100%);
+border: 1px solid rgba(255, 255, 255, 0.41);
+margin-left: 31px;
+}
+.gun-wrapper::-webkit-scrollbar{
+    height: 8px;
+}
+.gun-wrapper::-webkit-scrollbar-thumb{
+    background: #FFF500;
+-webkit-box-shadow: 0px 0px 3px rgba(255, 245, 0, 0.36);
+        box-shadow: 0px 0px 3px rgba(255, 245, 0, 0.36);
+border-radius: 7px;
+}
+.gun-wrapper::-webkit-scrollbar-track{
+    background: #c4c4c444;
+opacity: 0.05;
+border-radius: 7px;
+}
+.article{
+    width: 324px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 85px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.wrapper{
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+.article h6{
+    color: #FFF500;
+    text-shadow: 0px 0px 36px rgba(255, 245, 0, 0.3);
+    font-size: 36px;
+    margin-top: 20px;
+}
+.article p{
+    font-size: 24px;
+}
+.article .div{
+    height: 76px;
+    -webkit-transform: scale(2.7);
+        -ms-transform: scale(2.7);
+            transform: scale(2.7);
+}
+.article .div img{
+    height: 100%;
+}
+.article .text-div{
+    text-align: center;
+}
+.gun_section_block{
+    padding-bottom: 100px;
+}
+.article:hover{
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+}
+.flex-wrap{
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
