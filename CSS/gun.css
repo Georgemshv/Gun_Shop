@@ -13,6 +13,9 @@ body{
     background: radial-gradient(50% 50% at 50% 50%, 
     rgba(32, 39, 45, 0.9) 0%, rgba(8, 10, 12, 0.9) 100%) fixed;
 }
+.web-container{
+    padding-bottom: 110px;
+}
 body::-webkit-scrollbar{
     width: 10px;
 }
@@ -152,9 +155,6 @@ border-radius: 7px;
 .article .text-div{
     text-align: center;
 }
-.gun_section_block{
-    padding-bottom: 100px;
-}
 .article:hover{
     -webkit-transform: scale(1.03);
         -ms-transform: scale(1.03);
@@ -166,4 +166,17 @@ border-radius: 7px;
             justify-content: space-evenly;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+}
+footer{
+    right: 10px;
+    bottom: 24px;
+    background-color: white;
+    color: #222222;
+    border-radius: 10.9655px;
+    width: 159px;
+    height: 43.08px;
+    cursor: pointer;
+}
+footer:hover{
+    background-color: #FFF500;
 }
